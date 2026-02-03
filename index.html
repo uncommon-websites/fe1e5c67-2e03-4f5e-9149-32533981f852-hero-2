@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinance | The #1 Back-office for Ambitious Companies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .grid-cols-7-custom {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        @media (min-width: 768px) {
+            .grid-cols-7-custom {
+                grid-template-columns: repeat(4, minmax(0, 1fr));
+            }
+        }
+        @media (min-width: 1024px) {
+            .grid-cols-7-custom {
+                grid-template-columns: repeat(7, minmax(0, 1fr));
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-[#1e40af] text-white text-[11px] py-3 text-center font-medium tracking-wide px-4">
+        Zinance delivers real-time financial clarity via daily bookkeeping and automated dashboards.
+    </div>
+
+    <div class="max-w-[1440px] mx-auto px-6 lg:px-10 pb-20">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-start py-6 mb-2">
+            <div class="flex items-center gap-3">
+                <!-- Logo Icon -->
+                <img src="https://placehold.co/40x40/1e40af/white?text=Zi" alt="Logo" class="w-10 h-10 rounded-full object-cover">
+                <div class="text-lg leading-tight font-normal text-gray-900 w-48">
+                    Zinance
+                </div>
+            </div>
+            <button class="bg-[#1e40af] hover:bg-blue-700 text-white text-sm font-medium px-5 py-2.5 rounded-md transition-colors">
+                Request a Demo
+            </button>
+        </header>
+
+        <!-- Navigation Links (Sidebar style) -->
+        <nav class="flex flex-col items-start gap-2 mb-12 pl-1">
+            <a href="#" class="text-sm font-medium text-black">Home</a>
+            <a href="#" class="text-sm font-medium text-[#475569] hover:text-[#1e40af] transition-colors">Product</a>
+            <a href="#" class="text-sm font-medium text-[#475569] hover:text-gray-600 transition-colors">Bookkeeping</a>
+            <a href="#" class="text-sm font-medium text-gray-400 hover:text-gray-600 transition-colors">Taxes</a>
+            <a href="#" class="text-sm font-medium text-gray-400 hover:text-gray-600 transition-colors">CFO Ops</a>
+        </nav>
+
+        <!-- Hero Section -->
+        <main class="relative w-full rounded-2xl overflow-hidden min-h-[850px] flex flex-col">
+            
+            <!-- Background Image -->
+            <img src="https://placehold.co/1400x1000/ffffff/f1f5f9?text=Real-time+Financial+Clarity" alt="Background" class="absolute inset-0 w-full h-full object-cover z-0">
+            
+            <!-- Hero Content -->
+            <div class="relative z-10 flex flex-col h-full flex-grow">
+                
+                <!-- Headline Area -->
+                <div class="pt-32 pb-40 px-8 md:px-16">
+                    <h1 class="text-4xl md:text-[3.25rem] leading-[1.1] font-light tracking-tight text-gray-900 max-w-3xl">
+                        Real-time financial clarity<br>
+                        for ambitious companies
+                    </h1>
+                </div>
+
+                <!-- White Card Section -->
+                <div class="mt-auto bg-white w-full py-12 px-8 md:px-16">
+                    <p class="text-lg md:text-xl text-[#475569] mb-12 font-normal">
+                        Daily bookkeeping, taxes, and CFO support for fast-growing startups. Stay on top of your runway with automated reconciliation and daily financial clarity.
+                    </p>
+
+                    <!-- Logos Grid -->
+                    <div class="grid grid-cols-7-custom gap-x-4 gap-y-12 w-full">
+                        
+                        <!-- Row 1 -->
+                        <!-- 1. MITRE -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/004488?text=MITRE" alt="MITRE" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 2. Stanford -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-[#475569] text-center leading-tight">
+                                Sanmi Koyejo
+                            </div>
+                            <img src="https://placehold.co/120x40/white/8C1515?text=Stanford" alt="Stanford" class="h-6 object-contain">
+                        </div>
+
+                        <!-- 3. Google Cloud -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Phil Venables<br>fmr CISO
+                            </div>
+                            <img src="https://placehold.co/120x40/white/4285F4?text=Google+Cloud" alt="Google Cloud" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 4. MIT Sloan -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Keri Pearlson<br><span class="opacity-70">Principal Research Scientist</span>
+                            </div>
+                            <img src="https://placehold.co/120x40/white/000000?text=MIT+Sloan" alt="MIT Sloan" class="h-6 object-contain">
+                        </div>
+
+                        <!-- 5. Cisco -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Hyrum Anderson
+                            </div>
+                            <img src="https://placehold.co/120x40/white/049FD9?text=CISCO" alt="Cisco" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 6. MongoDB -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Lena Smart<br>fmr CISO
+                            </div>
+                            <img src="https://placehold.co/120x40/white/00684A?text=MongoDB" alt="MongoDB" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 7. Orrick -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/666666?text=orrick" alt="Orrick" class="h-8 object-contain">
+                        </div>
+
+                        <!-- Row 2 -->
+                        <!-- 1. Cognition -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=Cognition" alt="Cognition" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 2. Ada -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=ada" alt="Ada" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 3. CoreWeave -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/0000FF?text=CoreWeave" alt="CoreWeave" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 4. Alpharun -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/333333?text=ALPHARUN" alt="Alpharun" class="h-6 object-contain">
+                        </div>
+
+                        <!-- 5. Virtue AI -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=Virtue+AI" alt="Virtue AI" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 6. Haize Labs -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/555555?text=Haize+Labs" alt="Haize Labs" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 7. Axlora -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=Axlora" alt="Axlora" class="h-8 object-contain">
+                        </div>
+
+                        <!-- Row 3 -->
+                        <!-- 1. Faculty -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=FACULTY" alt="Faculty" class="h-6 object-contain">
+                        </div>
+
+                        <!-- 2. UIUC -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Bo Li<br><span class="opacity-70">Associate Professor</span>
+                            </div>
+                            <img src="https://placehold.co/120x40/white/E84A27?text=ILLINOIS" alt="University of Illinois" class="h-10 object-contain">
+                        </div>
+
+                        <!-- 3. Witness AI -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=WITNESS+AI" alt="Witness AI" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 4. Newfront -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/333333?text=Newfront" alt="Newfront" class="h-8 object-contain">
+                        </div>
+
+                        <!-- 5. CMU -->
+                        <div class="flex flex-col justify-end items-center h-full gap-2">
+                            <div class="text-[10px] text-gray-500 text-center leading-tight">
+                                Matt Fredrikson
+                            </div>
+                            <img src="https://placehold.co/120x40/white/C41230?text=Carnegie+Mellon" alt="Carnegie Mellon University" class="h-10 object-contain">
+                        </div>
+
+                        <!-- 6. Fin -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/000000?text=Fin" alt="Fin" class="h-10 object-contain">
+                        </div>
+
+                        <!-- 7. UiPath -->
+                        <div class="flex flex-col justify-end items-center h-full">
+                            <img src="https://placehold.co/120x40/white/FA4616?text=UiPath" alt="UiPath" class="h-8 object-contain">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
